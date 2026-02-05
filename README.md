@@ -17,7 +17,7 @@ Example: https://github.com/al-Nabil/new
 ├── index.html
 ├── style.css
 ├── thumb@2x.jpg
-
+|
 └── README.md
 ```
 
