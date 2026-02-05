@@ -7,7 +7,7 @@ This project showcases a developer’s profile, skills, and design sense with pi
 
 ##  Live Preview
 👉 *(Optional)* Add your live site link here  
-Example: https://your-username.github.io/portfolio
+Example: https://github.com/al-Nabil/new
 
 ---
 
@@ -59,7 +59,7 @@ Example: https://your-username.github.io/portfolio
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/al-Nabil/new
    ```
 
 2. Open the project folder
