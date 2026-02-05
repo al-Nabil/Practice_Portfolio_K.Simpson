@@ -1,0 +1,175 @@
+
+
+/* html=> ??font size = 1rem
+html{
+     font-size: 10px = 1rem //by default 16px
+} 
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #007bff;
+    --text-color: #333;
+    --bg-light: #eee;
+    --main-font: 'Inter', 'Poppins', 'sans-sarif';
+}
+
+body{
+    font-family: var(--main-font);
+    color: var(--text-color);
+    line-height: 1.6;
+    background: var(--bg-light);
+    position: relative;
+}
+button{
+    cursor: pointer;
+}
+
+/* =====HEADER SECTION */
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background: #fff;
+    padding: 20px 80px;
+    border: 1px solid #ddd;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background: var(--primary-color);
+    color: var(--bg-light);
+    cursor: pointer;
+}
+
+/* ===== HERO SECTION ===== */
+.hero{
+    background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    color: #fff;
+    position: relative;
+    margin-top: 80px;
+}
+.hero::after{
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    /* top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+    inset: 0;
+}
+.hero-content{
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    padding: 20px;
+    font-size: 18px;
+}
+.hero-content h1 span{
+    color: var(--primary-color);
+}
+.hero-content button{
+    background: var(--primary-color);
+    color: #fff;
+    margin-top: 20px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    border: none;
+}
+.hero-content button:hover{
+    filter: brightness(80%);
+}
+
+/* ===== ABOUT SECTION ===== */
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 80px;
+    background: #fff;
+}
+.about img{
+    width: 200px;
+    border: 3px solid var(--primary-color);
+    border-radius: 50%;
+}
+.about-text{
+    max-width: 600px;
+    font-size: 18px;
+}
+.about-text p{
+    text-align: justify;
+    margin-top: 10px;
+    
+}
+
+/* ===== SKILLS SECTION ===== */
+.skills{
+    padding: 60px 80px;
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-height: 200px;
+    overflow: auto;
+    margin-top: 20px;
+}
+.skill{
+    border: 1px solid #ddd;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.skill:hover{
+    cursor: pointer;
+    background: #ddd;
+}
+
+/* ===== FOOTER SECTION ===== */
+footer{
+    background: #fff;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    font-size: 18px;
+}
