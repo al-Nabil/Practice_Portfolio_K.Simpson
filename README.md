@@ -7,7 +7,7 @@ This project showcases a developer’s profile, skills, and design sense with pi
 
 ##  Live Preview
 👉 *(Optional)* Add your live site link here  
-Example: https://github.com/al-Nabil/new
+Example: https://al-nabil.github.io/Practice_Portfolio_K.Simpson/
 
 ---
 
